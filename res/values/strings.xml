@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PrefsActivity!</string>
+    <string name="app_name">bookoverflow</string>
+    <string name="settings">User Settings</string>
+    <string name="sync">Sync</string>
+    <string name="noentries">You have no books issued currently.</string>
+    <string name="scan">Scan</string>
+    <string name="titleStartService">Start Service</string>
+    <string name="titleStopService">Stop Service</string>
+    <string name="about">About</string>
+</resources>

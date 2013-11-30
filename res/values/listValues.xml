@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listValues">
+        <item name = "one">In Campus</item>
+        <item name  = "two">Outside Campus</item>
+    </string-array>
+     <string-array name="options_list">
+        <item name = "one">0</item>
+        <item name  = "two">1</item>
+    </string-array>
+    
+</resources>

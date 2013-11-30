@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="User Credentials">                
+        <EditTextPreference
+                android:name="RollNo"
+                android:summary="Enter Your Roll No"
+                android:defaultValue=""
+                android:title="RollNo"
+                android:maxLines="1"
+                android:key="RollNo" />
+        </PreferenceCategory>
+        <PreferenceCategory
+                android:title="Server Settings">
+                 <ListPreference
+                        android:title="Select Location"
+                        android:summary="Select appropriate location to load appropriate Server Address"
+                        android:key="ServerAddress"
+                        android:defaultValue="In Campus"
+                        android:entries="@array/listValues"
+                        android:entryValues="@array/options_list" />           
+        </PreferenceCategory>
+        <PreferenceCategory
+                android:title="Syncing options">
+                <CheckBoxPreference
+                    android:key="auto_sync"
+        android:title="Auto Sync"
+        android:summary="Check to sync automatically when network is available"
+        android:defaultValue="true" />
+        </PreferenceCategory>
+        
+</PreferenceScreen>
